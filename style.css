@@ -1,0 +1,226 @@
+/****************GENERELT UDSEENDE********************/
+
+/* {
+    box-sizing: border-box;
+}*/
+
+img {
+    max-width: 100%;
+}
+
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    line-height: 0;
+
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*******************MENUBAR********************/
+
+
+.hidden {
+    transform: scale(0);
+}
+
+#menuknap {
+    position: relative;
+    display: inline-block;
+    width: 2.9rem;
+    font-size: 2.5rem;
+    font-family: Montserrat;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform 1s;
+    transform-origin: top right;
+    position: absolute;
+    background-color: black;
+    min-width: 100%;
+    z-index: ;
+    right: 0rem;
+    top: 2rem;
+}
+
+#menu a {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    line-height: 4rem;
+
+}
+
+
+.siteheader {
+    display: none;
+}
+
+/*
+header img {
+
+    max-width: 50%;
+    margin-left: 50rem;
+    display: ;
+}
+    */
+
+.mobilenav {
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+
+.mobilenav img {
+     max-width: 2rem;
+        margin-left: 1rem;
+}
+
+header {
+    width: 100%;
+    display: inline;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+/*****MENU BAR TABLET*****/
+
+@media only screen and (min-width:400px) {
+    header img {
+        max-width: 12rem;
+        margin-left: 2rem;
+    }
+}
+
+/******MENU BAR DESCTOP******/
+
+@media only screen and (min-width: 945px) {
+    .mobilenav {
+        display: none;
+    }
+
+    .dropdowndesktop {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdowndesktop .portfolie {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        color: white;
+        padding-right: 3rem;
+        text-align: right;
+        border: none;
+        outline: none;
+        margin: 0;
+        content: "\u2261";
+        line-height: 1.2rem;
+        background-color: #c9c9c9;
+    }
+
+    header .portfolie {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .dropdown-contentdesktop {
+        display: none;
+        position: absolute;
+        background-color: gainsboro;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-contentdesktop a {
+        padding: 20px;
+        font-weight: 0.8rem;
+        display: block;
+        text-align: center;
+        color: green;
+    }
+
+    .dropdown-contentdesktop a:hover {
+        background-color: lightgreen;
+    }
+
+    .dropdowndesktop:hover .dropdown-contentdesktop {
+        display: block;
+    }
+
+    header {
+        width: 100%;
+        display: inline;
+        position: fixed;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .siteheader {
+        height: 3rem;
+        width: 100%;
+        background-color: #c9c9c9;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 1rem;
+    }
+
+    .siteheader a:hover {
+        color: black;
+    }
+
+    header .portfolie:hover {
+        color: black;
+    }
+
+    /*ingen streg under links*/
+    header nav a {
+        text-decoration: none;
+        padding-right: 3rem;
+    }
+
+    header a {
+        line-height: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+    header img {
+        max-width: 2rem;
+        margin-left: 1rem;
+    }
+
+    .siteheader nav {
+        margin-right: 0rem;
+    }
+
+}
