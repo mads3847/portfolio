@@ -21,18 +21,50 @@ body {
 }
 
 a {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'muli';
     font-size: 1rem;
     text-decoration: none;
     color: white;
 }
+
+h1 {
+    font-family: 'muli';
+    line-height: 2.9rem;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 1;
+
+}
+
+h2 {
+    font-family: 'muli';
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font-family: 'muli';
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+p {
+    font-family: 'muli';
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
 
 
 /*******************MENUBAR********************/
 
 
 .hidden {
+
     transform: scale(0);
+    position: absolute;
+    left: 100%;
 }
 
 #menuknap {
@@ -51,7 +83,7 @@ a {
     transform-origin: top right;
     position: absolute;
     background-color: black;
-    min-width: 100%;
+    min-width: 95%;
     z-index: ;
     right: 0rem;
     top: 2rem;
@@ -224,3 +256,659 @@ header {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .alle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+.overskrift {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    padding-top: 0rem;
+    width: 23.1rem;
+
+
+
+}
+
+
+.knap {
+    width: 18rem;
+    height: 3rem;
+    border-radius: 0rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+
+    background-color: white;
+
+
+
+
+}
+
+
+.knap2 {
+    width: 17rem;
+    height: 3rem;
+    border-radius: 0rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: white;
+
+
+
+
+}
+
+
+
+
+.knap h3 {
+    color: black;
+    padding-top: 0.75rem;
+
+}
+
+
+
+.knap2 h3 {
+    color: black;
+    padding-top: 0.75rem;
+
+}
+
+.column_big  {
+    padding: 2rem;
+    padding-bottom: 0rem;
+    padding-left: rem;
+    padding-top: 5rem;
+    }
+
+
+ .column_big:hover  {
+        opacity: 0.5;
+            transform: scale(1.01);
+
+    }
+
+
+
+
+
+
+.column_small {
+    padding: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+
+
+}
+
+
+ .knap:hover  {
+        opacity: 0.5;
+            transform: scale(1.01);
+
+    }
+
+
+/*********PORTFOLIO tablet***********/
+
+@media only screen and (min-width: 500px) {
+
+
+
+    .alle {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+  .column_big_img  {
+    max-width: 500px;
+    }
+
+
+
+
+    .column_small {
+    padding-top: 1rem;
+
+
+
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+    /*********PORTFOLIE desctop**************/
+
+@media only screen and (min-width: 800px) {
+
+.column_small {
+    padding: 2rem;
+    padding-right: 0rem;
+    padding-top: 4.5rem;
+
+
+
+ }
+
+         .knapper {
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+    }
+
+     .column_big  {
+    padding: 2rem;
+    padding-bottom: 0rem;
+    padding-left: rem;
+    padding-top: 8rem;
+
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#om {
+           background-color: black;
+}
+
+
+
+    #om .alle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+
+
+#om .overskrift {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    padding-top: 0rem;
+    width: 23.1rem;
+    color: white;
+
+
+
+}
+
+
+
+
+#om .column_big  {
+    padding: 2rem;
+    padding-bottom: 6rem;
+    padding-left: rem;
+    padding-top: 0rem;
+    }
+
+
+ #om .column_big:hover  {
+        opacity: 0.5;
+            transform: scale(1.01);
+
+    }
+
+
+
+
+
+
+#om .column_small {
+    padding: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+
+
+}
+
+
+
+#om .column_om {
+    padding: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 100rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border-top: 0.1rem solid white;
+
+
+
+}
+
+#om .overskrift2 {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    padding-top: 6rem;
+    width: 23.1rem;
+    color: white;
+
+
+
+
+
+}
+
+#om .billeder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+#om .column_bil1 {
+
+    margin: 1.5rem;
+    max-width: 9rem;
+
+}
+
+
+#om .column_bil1:hover {
+    margin: 1.5rem;
+            transform: scale(5);
+
+
+}
+
+#om .column_bil2 {
+
+    margin: 1.5rem;
+    max-width: 9rem;
+
+}
+
+
+#om .column_bil2:hover {
+    margin: 1.5rem;
+    transform: scale(5);
+
+
+}
+
+
+
+#om .column_bil3 {
+
+    margin: 1.5rem;
+    max-width: 6rem;
+
+}
+
+
+#om .column_bil3:hover {
+    margin: 1.5rem;
+            transform: scale(5);
+
+
+}
+
+
+
+#om .column_bil4 {
+
+    margin: 1.5rem;
+    max-width: 6rem;
+
+}
+
+
+#om .column_bil4:hover {
+    margin: 1.5rem;
+            transform: scale(5);
+}
+
+
+#om .column_bil5 {
+
+    margin: 1.5rem;
+    max-width: 7.5rem;
+
+}
+
+
+#om .column_bil5:hover {
+    margin: 1.5rem;
+            transform: scale(5);
+}
+
+
+
+
+
+
+
+#om .vaerker {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+#om .column_vaerk1 {
+
+    margin: 1.5rem;
+    max-width: 9rem;
+
+}
+
+
+#om .column_vaerk1:hover {
+    margin: 1.5rem;
+            transform: scale(3.5);
+
+
+}
+
+#om .column_vaerk2 {
+
+    margin: 1.5rem;
+    max-width: 9rem;
+
+}
+
+
+#om .column_vaerk2:hover {
+    margin: 1.5rem;
+    transform: scale(3.5);
+
+
+}
+
+
+
+#om .column_vaerk3 {
+
+    margin: 1.5rem;
+    max-width: 6rem;
+
+}
+
+
+#om .column_vaerk3:hover {
+    margin: 1.5rem;
+            transform: scale(4.5);
+
+
+}
+
+
+
+#om .column_vaerk4 {
+
+    margin: 1.5rem;
+    max-width: 6rem;
+
+}
+
+
+#om .column_vaerk4:hover {
+    margin: 1.5rem;
+            transform: scale(4);
+}
+
+
+
+
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10rem;
+
+
+
+}
+
+
+.kontakt img {
+   max-height: 4rem;
+    margin: 2rem;
+    filter: grayscale(100%);
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 500px) {
+
+
+
+    #om .alle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+    }
+
+  #om .column_big_img  {
+    max-width: 400px;
+    }
+
+
+
+
+   #om .column_small {
+
+    padding-top: 7rem;
+
+
+
+    }
+#om .column_bil1:hover {
+            transform: scale(3.5);
+        }
+#om .column_bil2:hover {
+            transform: scale(3.5);
+        }
+#om .column_bil3:hover {
+            transform: scale(3.5);
+        }
+#om .column_bil4:hover {
+            transform: scale(3.5);
+
+           }
+#om .column_bil5:hover {
+            transform: scale(5);
+
+
+    }
+
+#om .billeder {
+
+    flex-direction: column;
+
+   }
+
+#om .vaerker {
+
+    flex-direction: column;
+}
+}
+
+
+
+
+
+
+
+
+
+
+    /*********PORTFOLIE desctop**************/
+
+@media only screen and (min-width: 800px) {
+
+#om .column_small {
+    padding: 2rem;
+    padding-right: 0rem;
+    padding-top: 4.5rem;
+
+
+
+ }
+
+
+
+    #om .column_big  {
+    padding: 2rem;
+    padding-bottom: 6rem;
+    padding-left: rem;
+    padding-top: 4rem;
+
+
+         }
+
+#om .billeder {
+
+    flex-direction: row;
+
+             }
+
+#om .vaerker {
+
+    flex-direction: row;
+
+
+
+
+        }
+#om .column_bil1:hover {
+            transform: scale(5);
+        }
+#om .column_bil2:hover {
+            transform: scale(4);
+        }
+#om .column_bil3:hover {
+            transform: scale(4.5);
+        }
+#om .column_bil4:hover {
+            transform: scale(5);
+            }
+#om .column_bil5:hover {
+            transform: scale(6);
+
+
+
+    }
+    .kontakt img {
+   max-height: 6rem;
+}
+
+
+}
+
+
+
+
+
+
+
