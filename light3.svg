@@ -1,0 +1,19 @@
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 113.38583 226.77165">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Ikke-navngivet_forløb_158);
+      }
+    </style>
+    <linearGradient id="Ikke-navngivet_forløb_158" data-name="Ikke-navngivet forløb 158" x1="32.47351" y1="112.16664" x2="82.84895" y2="112.16664" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5da85b" stop-opacity="0.5"/>
+      <stop offset="0.32831" stop-color="#5ca25a" stop-opacity="0.21748"/>
+      <stop offset="0.5" stop-color="#5ca059" stop-opacity="0.1"/>
+      <stop offset="0.64283" stop-color="#5ca45a" stop-opacity="0.19146"/>
+      <stop offset="0.92266" stop-color="#5dad5b" stop-opacity="0.42906"/>
+      <stop offset="0.9987" stop-color="#5db05c" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <title>light3</title>
+  <polygon class="cls-1" points="40.378 14.167 24.666 210.167 88.72 210.167 73.384 14.167 40.378 14.167"/>
+</svg>
