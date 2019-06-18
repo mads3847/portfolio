@@ -65,7 +65,7 @@ p {
 
     transform: scale(0);
     position: relative;
-
+    opacity: 0;
 }
 
 #menuknap {
